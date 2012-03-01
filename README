@@ -1,3 +1,7 @@
 This project is an ActivityGroup Demo
 Use the ActivityGroup to implement the Tab Style UI.
 
+If you want to know the embed activities,please refere to the code: me/pjq/tabsample/TabGroupActivity.java 
+
+The solution is found by google:
+http://ericharlow.blogspot.com/2010/09/experience-multiple-android-activities.html
