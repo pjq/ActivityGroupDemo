@@ -4,4 +4,10 @@
     <string name="hello">Hello World, ActivityGroupDemoActivity!</string>
     <string name="app_name">ActivityGroupDemo</string>
 
+    <string-array name="Spinner_Content">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+
 </resources>

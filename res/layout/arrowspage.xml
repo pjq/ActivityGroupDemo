@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout02" android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<TextView android:id="@+id/TextView02" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Arrows Page">
+	</TextView>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/BackButton2"
+		android:text="Back" android:layout_below="@+id/TextView02">
+	</Button>
+	
+<Button android:id="@+id/Button01" android:layout_below="@id/BackButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Indeterminate Dialog"></Button>
+<Button android:id="@+id/Button02" android:layout_below="@id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Select"></Button>
+</RelativeLayout>
