@@ -2,6 +2,8 @@ package me.pjq.ActivityGroupDemo;
 
 import java.util.HashMap;
 
+import me.pjq.tabsample.TabSample;
+
 import android.app.ActivityGroup;
 import android.content.Intent;
 import android.os.Bundle;
@@ -162,6 +164,10 @@ public class ActivityGroupDemoActivity extends ActivityGroup implements
 			ActivityHolder activityHolder = findActivityHolder(key);
 			showActivity(activityHolder);
 
+			Intent intent = new Intent();
+			intent.setClass(this, TabSample.class);
+			startActivity(intent);
+
 			break;
 		}
 
@@ -170,13 +176,13 @@ public class ActivityGroupDemoActivity extends ActivityGroup implements
 		}
 
 	}
-	
+
 	@Override
 	public boolean onKeyDown(int keyCode, KeyEvent event) {
 		// TODO Auto-generated method stub
 		return super.onKeyDown(keyCode, event);
 	}
-	
+
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub

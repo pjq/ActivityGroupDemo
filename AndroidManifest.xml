@@ -30,6 +30,35 @@
         </activity>
         <activity android:name=".ActivityF" >
         </activity>
+        <activity
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="me.pjq.tabsample.TabSample" >
+        </activity>
+        <activity
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="me.pjq.tabsample.SelectActivity" >
+        </activity>
+        <activity
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="me.pjq.tabsample.ArrowsActivity" >
+        </activity>
+        <activity
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="me.pjq.tabsample.EditActivity" >
+        </activity>
+        <activity
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:name="me.pjq.tabsample.OptionsActivity" >
+        </activity>
+        <activity android:name="me.pjq.tabsample.TabGroup1Activity" >
+        </activity>
+        <activity android:name="me.pjq.tabsample.TabGroup2Activity" >
+        </activity>
     </application>
 
 </manifest>
