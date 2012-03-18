@@ -22,6 +22,11 @@ import android.view.animation.TranslateAnimation;
  * 
  * @author Eric Harlow
  */
+/**
+ * ActivityGroup is deprecated. What should we use now?
+ * @author jubal
+ *
+ */
 public class TabGroupActivity extends ActivityGroup {
 
 	private ArrayList<String> mIdList;
