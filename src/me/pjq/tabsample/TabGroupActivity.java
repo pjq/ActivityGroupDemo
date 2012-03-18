@@ -24,6 +24,7 @@ import android.view.animation.TranslateAnimation;
  */
 /**
  * ActivityGroup is deprecated. What should we use now?
+ * Is there some replacement?
  * @author jubal
  *
  */
